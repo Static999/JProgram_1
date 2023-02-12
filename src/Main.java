@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Объявляете переменные для входных данных и параметров программы:
-        int bilet = 23676; // стоимости билета.
+        int ticket = 23676; // стоимости билета.
         // другую для хранения.
         int mile = 20; // количества рублей для одной бонусной мили.
         // Рассчитываете количество бонусных миль, используя
@@ -10,7 +10,7 @@ public class Main {
         // новую переменную и выводите на экран
         int bonus;
 
-        bonus =(bilet / mile);
+        bonus = (ticket / mile);
         System.out.println(((bonus) + " бонус(а/ов)"));
 
     }
